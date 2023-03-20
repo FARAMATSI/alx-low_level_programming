@@ -5,9 +5,14 @@
 */
 int main(void)
 {
+	int a;
 	char alpha;
 
-	for (alpha = 'z'; alpha >= 'a'; alpha--)
+	for (alpha = 48; alpha < 58; alpha++)
 	putchar(alpha);
+	for (a = 'a'; a <= 'f'; a++)
+	{
+	putchar(a);
+	}
 	return (0);
 }
