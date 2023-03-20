@@ -7,9 +7,7 @@ int main(void)
 {
 	int a;
 
-	char alphas[10] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
-
-	for (a = 0; a <= 9; a++)
-	putchar(alphas[a]);
+	for (a = 48; a <= 58; a++)
+	putchar(alphas(i);
 	return (0);
 }
