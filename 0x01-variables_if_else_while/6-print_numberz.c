@@ -8,6 +8,6 @@ int main(void)
 	int a;
 
 	for (a = 48; a <= 58; a++)
-	putchar(alphas(i);
+	putchar((i);
 	return (0);
 }
