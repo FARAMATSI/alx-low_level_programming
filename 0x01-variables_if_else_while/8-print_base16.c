@@ -11,9 +11,7 @@ int main(void)
 	for (alpha = 48; alpha < 58; alpha++)
 	putchar(alpha);
 	for (a = 'a'; a <= 'f'; a++)
-	{
 	putchar(a);
-	putchar('\n');
-	}
+	putchar('\n')
 	return (0);
 }
